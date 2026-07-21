@@ -23,7 +23,7 @@ const Support = () => {
     };
 
     return (
-        <div className="max-w-lg mx-auto bg-white shadow-2xl rounded-xl p-7 mt-32">
+        <div className="max-w-lg mx-auto bg-white shadow-2xl rounded-xl p-7 mt-33">
             <h2 className="text-2xl font-bold text-gray-700 mb-4">Disaster Support</h2>
             <p className="text-gray-600 mb-6">
                 If you need any help , we are here to connect you with the right resources.
@@ -39,14 +39,14 @@ const Support = () => {
                         name="name"
                         value={formData.name}
                         onChange={handleInputChange}
-                        className="w-full mt-2 p-2 border border-gray-300 rounded-md"
+                        className="w-full mt-2 p-3 border border-gray-300 rounded-md"
                         placeholder="Enter your name"
                         required
                     />
                 </div>
 
                 <div>
-                    <label htmlFor="email" className="block text-gray-700 font-semibold">Email:</label>
+                    <label htmlFor="email" className="block text-gray-690 font-semibold">Email:</label>
                     <input
                         type="email"
                         id="email"
@@ -76,7 +76,7 @@ const Support = () => {
 
                 <button
                     type="submit"
-                    className="w-28 bg-blue-600 ml-44 text-white py-2 rounded-md hover:bg-blue-700 transition duration-300"
+                    className="w-28 bg-blue-600 ml-44 text-white py-3 rounded-md hover:bg-blue-700 transition duration-300"
                 >
                     Submit
                 </button>
