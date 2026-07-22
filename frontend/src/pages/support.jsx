@@ -66,7 +66,7 @@ const Support = () => {
                         name="message"
                         value={formData.message}
                         onChange={handleInputChange}
-                        className="w-full mt-2 p-4 border border-gray-300 rounded-md"
+                        className="w-full mt-2 p-4 border border-gray-302 rounded-md"
                         required
                         rows="3" // Adjust the number of rows to control height
                         placeholder="Please describe your situation or how you can help."
