@@ -1,0 +1,20 @@
+# 1. Base image select karein
+FROM node:18-alpine
+
+# 2. Working directory set karein
+WORKDIR /app
+
+# 3. Dependency files copy karein
+COPY package*.json ./
+
+# 4. Dependencies install karein
+RUN npm install
+
+# 5. Baaki saara backend code copy karein
+COPY . .
+
+# 6. Port expose karein
+EXPOSE 5000
+
+# 7. App start karne ki command
+CMD ["npm", "start"]

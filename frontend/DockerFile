@@ -1,0 +1,18 @@
+# 1. Base image
+FROM node:18-alpine
+
+# 2. Working directory
+WORKDIR /app
+
+# 3. Dependencies copy aur install karein
+COPY package*.json ./
+RUN npm install
+
+# 4. Frontend code copy karein
+COPY . .
+
+# 5. React dev server ka port expose karein
+EXPOSE 3000
+
+# 6. React app start karein
+CMD ["npm", "start"]

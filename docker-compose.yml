@@ -1,0 +1,38 @@
+version: '3.8'
+
+services:
+  # 1. MongoDB Database Service
+  mongo_db:
+    image: mongo:latest
+    container_name: mongodb_container
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongo_data:/data/db
+
+  # 2. Backend Service
+  backend:
+    build: ./backend
+    container_name: mern_backend
+    ports:
+      - "5000:5000"
+    environment:
+      - MONGO_URI=mongodb://mongo_db:27017/disaster_db
+      - JWT_SECRET=${JWT_SECRET}
+      - PORT=5000
+    depends_on:
+      - mongo_db
+
+  # 3. Frontend Service
+  frontend:
+    build: ./frontend
+    container_name: mern_frontend
+    ports:
+      - "3000:3000"
+    stdin_open: true # React app ko container mein active rakhne ke liye
+    interactive: true
+    depends_on:
+      - backend
+
+volumes:
+  mongo_data:
