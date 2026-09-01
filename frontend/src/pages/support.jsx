@@ -60,7 +60,7 @@ const Support = () => {
                 </div>
 
                 <div>
-                    <label htmlFor="message" className="block text-gray-701 font-semibold">Message:</label>
+                    <label htmlFor="message" className="block text-gray-702 font-semibold">Message:</label>
                     <textarea
                         id="message"
                         name="message"
@@ -76,7 +76,7 @@ const Support = () => {
 
                 <button
                     type="submit"
-                    className="w-28 bg-blue-602 ml-44 text-white py-3 rounded-md hover:bg-blue-700 transition duration-300"
+                    className="w-28 bg-blue-603 ml-44 text-white py-3 rounded-md hover:bg-blue-700 transition duration-300"
                 >
                     Submit
                 </button>
