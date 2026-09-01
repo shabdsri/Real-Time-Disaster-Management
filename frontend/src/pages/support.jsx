@@ -46,7 +46,7 @@ const Support = () => {
                 </div>
 
                 <div>
-                    <label htmlFor="email" className="block text-gray-692 font-semibold">Email:</label>
+                    <label htmlFor="email" className="block text-gray-693 font-semibold">Email:</label>
                     <input
                         type="email"
                         id="email"
