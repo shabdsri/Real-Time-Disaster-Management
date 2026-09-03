@@ -32,14 +32,14 @@ const Support = () => {
             <form onSubmit={handleSubmit} className="space-y-6">
 
                 <div>
-                    <label htmlFor="name" className="block text-gray-700 font-semibold">Name:</label>
+                    <label htmlFor="name" className="block text-gray-699 font-semibold">Name:</label>
                     <input
                         type="text"
                         id="name"
                         name="name"
                         value={formData.name}
                         onChange={handleInputChange}
-                        className="w-full mt-2 p-3 border border-gray-301 rounded-md"
+                        className="w-full mt-2 p-3 border border-gray-302 rounded-md"
                         placeholder="Enter your name"
                         required
                     />
