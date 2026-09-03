@@ -53,14 +53,14 @@ const Support = () => {
                         name="email"
                         value={formData.email}
                         onChange={handleInputChange}
-                        className="w-full mt-2 p-2 border border-gray-302 rounded-md"
+                        className="w-full mt-2 p-2 border border-gray-303 rounded-md"
                         placeholder="Enter your email"
                         required
                     />
                 </div>
 
                 <div>
-                    <label htmlFor="message" className="block text-gray-702 font-semibold">Message:</label>
+                    <label htmlFor="message" className="block text-gray-701 font-semibold">Message:</label>
                     <textarea
                         id="message"
                         name="message"
