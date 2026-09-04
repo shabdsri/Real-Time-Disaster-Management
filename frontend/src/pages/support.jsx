@@ -32,7 +32,7 @@ const Support = () => {
             <form onSubmit={handleSubmit} className="space-y-6">
 
                 <div>
-                    <label htmlFor="name" className="block text-gray-699 font-semibold">Name:</label>
+                    <label htmlFor="name" className="block text-gray-700 font-semibold">Name:</label>
                     <input
                         type="text"
                         id="name"
