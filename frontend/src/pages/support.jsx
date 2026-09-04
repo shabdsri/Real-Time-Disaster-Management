@@ -76,7 +76,7 @@ const Support = () => {
 
                 <button
                     type="submit"
-                    className="w-28 bg-blue-604 ml-44 text-white py-4 rounded-md hover:bg-blue-700 transition duration-300"
+                    className="w-28 bg-blue-602 ml-44 text-white py-4 rounded-md hover:bg-blue-700 transition duration-300"
                 >
                     Submit
                 </button>
