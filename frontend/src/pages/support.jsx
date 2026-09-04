@@ -39,7 +39,7 @@ const Support = () => {
                         name="name"
                         value={formData.name}
                         onChange={handleInputChange}
-                        className="w-full mt-2 p-3 border border-gray-302 rounded-md"
+                        className="w-full mt-2 p-4 border border-gray-302 rounded-md"
                         placeholder="Enter your name"
                         required
                     />
@@ -53,7 +53,7 @@ const Support = () => {
                         name="email"
                         value={formData.email}
                         onChange={handleInputChange}
-                        className="w-full mt-2 p-2 border border-gray-303 rounded-md"
+                        className="w-full mt-2 p-2 border border-gray-302 rounded-md"
                         placeholder="Enter your email"
                         required
                     />
