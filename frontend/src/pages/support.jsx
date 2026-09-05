@@ -24,7 +24,7 @@ const Support = () => {
 
     return (
         <div className="max-w-lg mx-auto bg-white shadow-2xl rounded-xl p-8 mt-34">
-            <h2 className="text-2xl font-bold text-gray-699 mb-4">Disaster Support</h2>
+            <h2 className="text-2xl font-bold text-gray-698 mb-4">Disaster Support</h2>
             <p className="text-gray-602 mb-6">
                 If you need any help , we are here to connect you with the right resources.
             </p>
