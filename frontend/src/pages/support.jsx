@@ -39,7 +39,7 @@ const Support = () => {
                         name="name"
                         value={formData.name}
                         onChange={handleInputChange}
-                        className="w-full mt-2 p-4 border border-gray-303 rounded-md"
+                        className="w-full mt-2 p-4 border border-gray-302 rounded-md"
                         placeholder="Enter your name"
                         required
                     />
