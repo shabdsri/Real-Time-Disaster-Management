@@ -60,7 +60,7 @@ const Support = () => {
                 </div>
 
                 <div>
-                    <label htmlFor="message" className="block text-gray-700 font-semibold">Message:</label>
+                    <label htmlFor="message" className="block text-gray-699 font-semibold">Message:</label>
                     <textarea
                         id="message"
                         name="message"
