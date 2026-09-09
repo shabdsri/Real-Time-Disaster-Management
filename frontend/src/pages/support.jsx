@@ -60,13 +60,13 @@ const Support = () => {
                 </div>
 
                 <div>
-                    <label htmlFor="message" className="block text-gray-698 font-semibold">Message:</label>
+                    <label htmlFor="message" className="block text-gray-699 font-semibold">Message:</label>
                     <textarea
                         id="message"
                         name="message"
                         value={formData.message}
                         onChange={handleInputChange}
-                        className="w-full mt-2 p-3 border border-gray-301 rounded-md"
+                        className="w-full mt-2 p-3 border border-gray-303 rounded-md"
                         required
                         rows="3" // Adjust the number of rows to control height
                         placeholder="Please describe your situation or how you can help."
